@@ -1,0 +1,11 @@
+some_str = input('Введите любое слово: ')
+print(some_str[2])
+print(some_str[1:])
+print(some_str[:5])
+print(some_str[:-2])
+print(some_str[::2])
+print(some_str[1::2])
+print(some_str[::-1])
+some_str2 = some_str[::-1]
+print(some_str2[1::2])
+print(len(some_str))
