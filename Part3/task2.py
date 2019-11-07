@@ -1,0 +1,5 @@
+a = input("Введите слова через пробел ")
+a = a.split()
+a.sort(key=len)
+a = " ".join(a)
+print("отсортировано" , a)
